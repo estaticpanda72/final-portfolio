@@ -1,16 +1,79 @@
 body { 
-    background-color: rgb(228, 222, 222)
+    background-color: rgb(234, 230, 230);
     } 
 
 #title{
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    color:rgb(62, 123, 153);
+    color:rgb(141, 126, 162);
 }
 
-.house:hover {
+#works{
+  padding: 20px 150px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+  .card {
+    /* Add shadows to create the "card" effect */
+    padding:20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 400px;
+    width: 500px;
+    margin: 20px;
+    
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transform: scale(1.1);
   }
-  .button:hover {
-    transform: scale(1.1);
+  
+  /* Add some padding inside the card container */
+  .container {
+    max-height:200px ;
+    padding: 22px 16px;
+    background-color: rgb(141, 126, 162);
+    color: aliceblue;
+    text-decoration: none;
+
   }
+
+  .buttons {
+    background-color: rgb(159, 151, 151);
+    border: none;
+    color:  rgb(87, 76, 103);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+  }
+  a { text-decoration: none; }
+
+  #About{
+    background-color:rgb(141, 126, 162);
+    border-radius: 10px;
+    padding: 20px;
+    margin:100px 200px 100px 200px;
+    
+    border: 6px solid  rgb(109, 97, 127);
+    color:aliceblue
+    }
+
+    #page-heading{
+      color:rgb(109, 97, 127);
+      display:flex;
+      justify-content:center;
+      text-decoration: underline;
+    }
