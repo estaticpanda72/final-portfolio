@@ -37,9 +37,78 @@
       </nav>
     <h1 id="title"> Estatic Panda</h1>
     <h2 id = "page-heading">Housing Application</h2>
+    <button class="buttons" style="justify-content:center" onclick="window.location.href = 'https://estaticpanda72.github.io/Development/';">Click to visit deployed application</button>
+    <div id = "About">
+      <div id = "Header">
+        <h3> Background</h3>
+      </div>
+      <p>
+        <br>
+        The idea behind this was to solve a problem regarding a lack of information for first years coming into Brown University. Often, first years are
+        assigned dorm housing but have no idea what those dorms might look like, their location, amongst other details. My intent was to create an application
+        that would host images of these dorms along with features unique to them. The application would enable a user to sort based on conditions such as 
+        <b>year built</b> and <b>Average square footage of rooms</b>. Also, a user could filter out options based on <b>location</b> and <b>bathroom style</b>.
+      </p>
+    </div>
+    <div id = "Header">
+      <h1>Details</h1>
+    </div>
+    <div id="About">
+   
+    <div class="Sub-Header">
+    <h3>Structure</h3>
+  </div>
+    <p>For this project, I utilized React and Javascript to build out the application. React was especially useful due to the nature of the applcation being 
+      one that would need to be changed and updated based on a user input. The Application is dynamic and React supports this. 
+    
+    The underlying structure of the application is built using Javascript. I'd like to highlight the use of Components in this project. 
+  I utilized two specific Components: <ul>HousingItem Component</ul> <ul>CartItem Component</ul> These two components were used to build out each individual item display as seen below<br><br>
+  <div id = "images">
+  <img  id="images" src="source/dorm-display.png" width="300px" height="400px"> 
+  <img  id="images" src="source/dorm-display-1.png" width="300px" height="400px"> 
+  </div>
+  <figcaption><b>HousingItem Display</b></figcaption>
+  <br>
 
+ 
+  <b>Specifics:</b> A dataset is mapped over using the Components as a template to be built into. Details such as Location, Average Square Footage, Bathroom Type, Year built are all extracted from 
+  dataset. <br>
+  <b>HousingItem Component</b> represents the component for every dorm card displayed on the page. The HousingItem card displays data like the Location, Average Square Footage, Bathroom Type, Year built. 
+  Each card features a save button which adds each dorm to a <b>saved</b> section where a user can process them later on. <br>
+  <b>CartItem Component</b> represents the component that stores all saved dorm card displayed on the page. The CartItem is displayed towards the bottom of the page and updates by either
+  the user clicking the save button or the user directly changing the count in the cart. The idea of the count in the cart is that a user can see how popular a dorm is based on how many times it has been saved
+  to the cart. The cartItem component also includes a clear cart item option that will remove all saved Dorms instantly. <br> <br>
+  <div id = "images">
+    <img  id="images" src="source/cart-display.png" width="950px" height="300px"> 
+  </div>
+    <figcaption><b>CartItem Display</b></figcaption>
+    <br>
+  </p>
+  </div>
+  <div id="About">
+    <div class="Sub-Header">
+    <h3>Functionality</h3>
+  </div>
+  <p>I'd also like to touch on the filtering and sorting operations of the application. I chose to implement these using radio button for the sort by and checkboxes for the filtering.
+    The use of radio buttons restricts the sorting choice to just one at a time: Users can sort by either avg square footage or year built. 
+    The use of checkboxes actually allows filters to be stacked upon each other; Users can adopt custom filter combinations to acheive their desired result. 
+    <div id = "images">
+      <img  id="images" src="source/top-bar.png" width="950px" height="200px"> 
+    </div>
+      <figcaption><b>Sorting and Filtering Display</b></figcaption>
+      <br>
+  </p>
+  </div>
+  <div id="About">
+    <div class="Sub-Header">
+    <h3>Takeaways</h3>
+    </div>
+    <p>Throughout this project, I was able to dive deeper into react and its nuances. I also learned how to piece together a responsive website which I definitely enjoyed
+      I also got a feel for how to use states to achieve the constant updating that comes with a responsive website.
+    </p>
+  </div>
 
-hiy
+</div>
 </body>
 
 </html>

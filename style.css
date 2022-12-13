@@ -59,7 +59,13 @@ body {
     display: flex;
     justify-content: center;
   }
-  a { text-decoration: none; }
+  a { text-decoration: none; 
+  color:rgb(160, 153, 153)
+}
+
+  #center{
+    justify-content: center;
+  }
 
   #About{
     background-color:rgb(141, 126, 162);
@@ -77,3 +83,36 @@ body {
       justify-content:center;
       text-decoration: underline;
     }
+    #Header{
+      color:rgb(223, 220, 220);
+      display:flex;
+      justify-content:center;
+      padding: 5px;
+      background-color:rgb(104, 74, 146) ;
+      border-radius: 20px;
+    }
+    .Sub-Header{
+      color:rgb(223, 220, 220);
+      display:flex;
+      justify-content:center;
+      margin: 25px;
+      padding: 5px;
+      background-color:rgb(104, 74, 146) ;
+      border-radius: 20px;
+    }
+    #images{
+     border-radius: 10px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     justify-content: space-evenly;
+    }
+
+    figcaption {
+      text-align: center;
+  }
+  table,td,tr,th {
+    border: 1px solid rgb(223, 220, 220);
+    padding: 4px;
+    color:rgb(228, 219, 219);
+  }
