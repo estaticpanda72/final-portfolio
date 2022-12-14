@@ -28,6 +28,16 @@ body {
     margin: 20px;
     
   }
+
+  .card-body {
+    /* Add shadows to create the "card" effect */
+    padding:20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 450px;
+    margin: 20px;
+    
+  }
   
   /* On mouse-over, add a deeper shadow */
   .card:hover {
@@ -115,4 +125,8 @@ body {
     border: 1px solid rgb(223, 220, 220);
     padding: 4px;
     color:rgb(228, 219, 219);
+  }
+  #quick-style{
+    display: flex;
+    flex-wrap: wrap;
   }
